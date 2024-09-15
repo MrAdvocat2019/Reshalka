@@ -39,10 +39,8 @@ if __name__ == "__main__":
         i += 1
     with open('res.txt', 'w') as file:
         for item in res:
-        # Write the element to the file followed by a newline character
             file.write(str(item) + '\n')
 
 
 
 
-    
